@@ -9,7 +9,7 @@
 
 I started programming at eight with Batch, Bash, Perl, and PHP. I was a regular on security forums and at events in Spain, and a member of ka0labs. Understanding how systems worked and where they failed taught me a lot, but building software became the work I wanted to pursue.
 
-In 2009, at fourteen, I began working on professional projects and with startups. As the projects grew, I moved into enterprise development and software architecture. I've worked in AI and Big Data since 2012. That path led to the frameworks and financial software I build today.
+In 2009, at fourteen, I began working on professional projects and with startups. As the projects grew, I moved into enterprise development and software architecture. I've worked in AI and Big Data since 2012. From 2015 to 2018, I was responsible for global AI innovation at everis (now NTT DATA), working as Head of AI & Robotics and Innovation Manager at everis NextGen. I developed AI virtual workers using machine learning and NLP to automate business processes. That experience informs the frameworks and financial software I build today.
 
 I'm the founder and technology lead of **Firefly Software** and the **Firefly Software Foundation**. My public engineering work lives across [fireflyframework](https://github.com/fireflyframework) and [firefly-oss](https://github.com/firefly-oss): application frameworks, tools for AI and software delivery, and the business modules behind banking operations.
 
