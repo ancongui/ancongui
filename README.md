@@ -57,6 +57,16 @@ A few places to inspect the engineering:
 
 The [book collection](https://fireflyframework.org/#books) covers jafly, pyfly, larafly, and rsfly in English and Spanish. I work on the examples and documentation alongside the implementation. Readers can follow the ideas into companion services and the tests that exercise them, including [larafly's documentation checks](https://github.com/fireflyframework/fireflyframework-php/blob/main/tests/DocsCodeIsRealTest.php).
 
-I've worked in software since 2009 and AI and Big Data since 2012. Alongside Firefly, I'm Chief Technology Officer at [Signature Management Consultants](https://www.signature.com.es/).
+I've worked in software since 2009 and AI and Big Data since 2012.
+
+## Strategy, transformation, and delivery
+
+<a href="https://www.signature.com.es/"><img src="https://raw.githubusercontent.com/ancongui/ancongui/main/assets/signature-logo.svg" alt="Signature Management Consultants" width="48" height="48"></a>
+
+Alongside Firefly, I'm **Chief Technology Officer at [Signature Management Consultants](https://www.signature.com.es/)**, where I lead the firm's technology capability and Forward Deployment practice.
+
+I work with business leaders and engineering teams to turn strategic priorities into changes the organization can put into practice. That includes diagnosing what limits performance, redesigning processes, and deciding how AI, data, and existing systems can support the transformation.
+
+I stay involved through architecture and implementation, helping teams bring the system into production and take ownership of it. The work connects business judgment with hands-on engineering: the operating model and the code have to work together. [Transformation practice](https://www.signature.com.es/capacidades/transformacion) · [Technology capabilities](https://www.signature.com.es/capacidades/digital).
 
 **Contact:** [andres.contreras@fireflysoftware.io](mailto:andres.contreras@fireflysoftware.io) · Orange, Orange County, US

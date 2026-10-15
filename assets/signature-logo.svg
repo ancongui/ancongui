@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Signature">
+  <!-- Marca de Signature: la "S" del logotipo sobre el azul profundo de la casa,
+       con el punto cobre de la firma. Colores del design system (src/global.css):
+       sig-deep #24323F, sig-bg #F7F5F0, sig-cobre #AD7246. -->
+  <rect width="48" height="48" rx="7" fill="#24323F"/>
+  <text x="21" y="35"
+        font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="33" font-weight="700" fill="#F7F5F0" text-anchor="middle">S</text>
+  <circle cx="36" cy="32.5" r="3.4" fill="#AD7246"/>
+</svg>
