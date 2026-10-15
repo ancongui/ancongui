@@ -1,8 +1,8 @@
 <picture>
-  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/1d22b80d24d2321c801bf51240097fc1d273a296/assets/hero-narrow-dark.svg">
-  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/1d22b80d24d2321c801bf51240097fc1d273a296/assets/hero-narrow-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/1d22b80d24d2321c801bf51240097fc1d273a296/assets/hero-dark.svg">
-  <img src="https://raw.githubusercontent.com/ancongui/ancongui/1d22b80d24d2321c801bf51240097fc1d273a296/assets/hero-light.svg" alt="Andrés Contreras Guillén. Founder and Technology Lead of Firefly Software and the Firefly Software Foundation. CTO at Signature, working on Lean Transformation. I build the foundations for AI and financial software." width="100%">
+  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/f82f45890bb7bad0189e2a7cc81d5afe6ca3d69c/assets/hero-narrow-dark.svg">
+  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/f82f45890bb7bad0189e2a7cc81d5afe6ca3d69c/assets/hero-narrow-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/f82f45890bb7bad0189e2a7cc81d5afe6ca3d69c/assets/hero-dark.svg">
+  <img src="https://raw.githubusercontent.com/ancongui/ancongui/f82f45890bb7bad0189e2a7cc81d5afe6ca3d69c/assets/hero-light.svg" alt="Andrés Contreras Guillén. Founder and Technology Lead of Firefly Software and the Firefly Software Foundation. CTO at Signature, working on Lean Transformation. I build application frameworks and AI for banking and insurance." width="100%">
 </picture>
 
 ## I design the architecture and write the software
@@ -11,7 +11,7 @@ I started programming at eight with BASIC, Visual Basic, Batch, Bash, Perl, and 
 
 In 2009, at fourteen, I began working on professional projects and with startups. As the projects grew, I moved into enterprise development and software architecture. I've worked in AI and Big Data since 2012. From 2015 to 2018, I was responsible for global AI innovation at everis (now NTT DATA), working as Head of AI & Robotics and Innovation Manager at everis NextGen. I developed AI virtual workers using machine learning and NLP to automate business processes. That experience informs the frameworks and financial software I build today.
 
-I'm the founder and technology lead of **Firefly Software** and the **Firefly Software Foundation**. My public engineering work lives across [fireflyframework](https://github.com/fireflyframework) and [firefly-oss](https://github.com/firefly-oss): application frameworks, tools for AI and software delivery, and the business modules behind banking operations.
+I'm the founder and technology lead of **Firefly Software** and the **Firefly Software Foundation**. My public engineering work lives across [fireflyframework](https://github.com/fireflyframework) and [firefly-oss](https://github.com/firefly-oss): application frameworks, tools for AI and software delivery, and technology for banking and insurance operations.
 
 I work on the internals as well as the applications: dependency injection, domain contracts, event-driven services, persistence, security, and orchestration. The repositories below show the implementations, tests, and tradeoffs behind that work.
 
@@ -45,9 +45,11 @@ The Firefly Framework family shares an approach to application structure while f
 
 Capabilities and release maturity vary by implementation. Each repository documents its supported behavior.
 
-## Banking technology in the open
+## Banking and insurance technology
 
 Through Firefly Software, I work on **OpenPlatform** business modules and their integration with existing financial systems. Public repositories cover customer management, accounts, payments, lending, and shared services.
+
+Firefly's services also cover insurance operations, including underwriting support, policy and claims work. Those implementations connect to insurers' existing systems; native insurance capabilities are being developed.
 
 A few places to inspect the engineering:
 
@@ -65,8 +67,8 @@ The [book collection](https://fireflyframework.org/#books) covers jafly, pyfly, 
 
 <a href="https://www.signature.com.es/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/1d22b80d24d2321c801bf51240097fc1d273a296/assets/signature-wordmark-dark.svg">
-    <img src="https://raw.githubusercontent.com/ancongui/ancongui/1d22b80d24d2321c801bf51240097fc1d273a296/assets/signature-wordmark-light.svg" alt="Signature Management Consultants" width="200">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/f82f45890bb7bad0189e2a7cc81d5afe6ca3d69c/assets/signature-wordmark-dark.svg">
+    <img src="https://raw.githubusercontent.com/ancongui/ancongui/f82f45890bb7bad0189e2a7cc81d5afe6ca3d69c/assets/signature-wordmark-light.svg" alt="Signature Management Consultants" width="200">
   </picture>
 </a>
 
