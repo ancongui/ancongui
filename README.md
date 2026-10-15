@@ -1,8 +1,8 @@
 <picture>
-  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/main/assets/hero-narrow-dark.svg">
-  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/main/assets/hero-narrow-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/main/assets/hero-dark.svg">
-  <img src="https://raw.githubusercontent.com/ancongui/ancongui/main/assets/hero-light.svg" alt="Andrés Contreras Guillén. Founder and Technology Lead of Firefly Software and the Firefly Software Foundation. CTO at Signature, working on Lean Transformation. I build the foundations for AI and financial software." width="100%">
+  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/1d22b80d24d2321c801bf51240097fc1d273a296/assets/hero-narrow-dark.svg">
+  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/1d22b80d24d2321c801bf51240097fc1d273a296/assets/hero-narrow-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/1d22b80d24d2321c801bf51240097fc1d273a296/assets/hero-dark.svg">
+  <img src="https://raw.githubusercontent.com/ancongui/ancongui/1d22b80d24d2321c801bf51240097fc1d273a296/assets/hero-light.svg" alt="Andrés Contreras Guillén. Founder and Technology Lead of Firefly Software and the Firefly Software Foundation. CTO at Signature, working on Lean Transformation. I build the foundations for AI and financial software." width="100%">
 </picture>
 
 ## I design the architecture and write the software
@@ -65,8 +65,8 @@ The [book collection](https://fireflyframework.org/#books) covers jafly, pyfly, 
 
 <a href="https://www.signature.com.es/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/main/assets/signature-wordmark-dark.svg">
-    <img src="https://raw.githubusercontent.com/ancongui/ancongui/main/assets/signature-wordmark-light.svg" alt="Signature Management Consultants" width="200">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/1d22b80d24d2321c801bf51240097fc1d273a296/assets/signature-wordmark-dark.svg">
+    <img src="https://raw.githubusercontent.com/ancongui/ancongui/1d22b80d24d2321c801bf51240097fc1d273a296/assets/signature-wordmark-light.svg" alt="Signature Management Consultants" width="200">
   </picture>
 </a>
 
