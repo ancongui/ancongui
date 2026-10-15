@@ -80,4 +80,12 @@ My work in Lean Transformation brings business leaders and engineering teams tog
 
 I stay involved through architecture and implementation, helping teams bring the system into production and take ownership of it. The work connects business judgment with hands-on engineering: the operating model and the code have to work together. [Transformation practice](https://www.signature.com.es/capacidades/transformacion) · [Technology capabilities](https://www.signature.com.es/capacidades/digital).
 
+## A little beyond the code
+
+I love sci-fi. I'm a Stargate loyalist, especially SG-1 and Atlantis. Universe and I never quite clicked.
+
+Firefly is named after the series. I have a soft spot for Mal and Serenity's scrappy crew trying to keep flying on their own terms. Building open-source frameworks in a world of enterprise platforms feels like our own small version of that independent streak: code people can inspect, adapt, and run themselves.
+
+Every year I resolve to exercise more. So far, I've been more consistent at finding excuses than working out.
+
 **Contact:** [andres.contreras@fireflysoftware.io](mailto:andres.contreras@fireflysoftware.io) · Orange, Orange County, US
