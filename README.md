@@ -2,7 +2,7 @@
   <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/main/assets/hero-narrow-dark.svg">
   <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/main/assets/hero-narrow-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/main/assets/hero-dark.svg">
-  <img src="https://raw.githubusercontent.com/ancongui/ancongui/main/assets/hero-light.svg" alt="Andrés Contreras Guillén. Founder and Technology Lead of Firefly Software and the Firefly Software Foundation. Frameworks, AI, and banking technology." width="100%">
+  <img src="https://raw.githubusercontent.com/ancongui/ancongui/main/assets/hero-light.svg" alt="Andrés Contreras Guillén. Founder and Technology Lead of Firefly Software and the Firefly Software Foundation. I build the foundations for AI and financial software." width="100%">
 </picture>
 
 ## I design the architecture and write the software
@@ -12,6 +12,20 @@ I'm the founder and technology lead of **Firefly Software** and the **Firefly So
 I work on the internals as well as the applications: dependency injection, domain contracts, event-driven services, persistence, security, and orchestration. The repositories below show the implementations, tests, and tradeoffs behind that work.
 
 [Firefly Framework](https://fireflyframework.org/) · [Firefly Software](https://fireflysoftware.io/) · [LinkedIn](https://www.linkedin.com/in/andrescontrerasguillen/)
+
+## The engineering problems I work on
+
+**Distributed transactions.** I work on Java's reactive Saga and TCC engines: ordering dependent steps, coordinating reservations, and compensating when part of an operation fails. The failure paths matter as much as the successful execution. [Saga implementation](https://github.com/fireflyframework/fireflyframework-orchestration/blob/main/src/main/java/org/fireflyframework/orchestration/saga/engine/SagaEngine.java) · [TCC tests](https://github.com/fireflyframework/fireflyframework-orchestration/blob/main/src/test/java/org/fireflyframework/orchestration/unit/tcc/TccEngineTest.java).
+
+**Processes that survive interruption.** In [Firefly Weave](https://github.com/fireflyframework/firefly-weave), I work across the workflow compiler and durable execution model, including worker coordination and recovery. Its recovery matrix covers process restarts, lost external responses, and acknowledgement boundaries. Weave is currently an alpha. [Compiler](https://github.com/fireflyframework/firefly-weave/tree/main/src/firefly_weave/compiler) · [Recovery tests](https://github.com/fireflyframework/firefly-weave/blob/main/tests/e2e/test_recovery_matrix.py).
+
+**Infrastructure for AI applications.** I built [Firefly Agentic](https://github.com/fireflyframework/fireflyframework-agentic) on Pydantic AI and work on the layers around model calls: memory, tools, validation, and pipeline execution. The pipeline engine handles dependency scheduling, parallel work, and checkpoint resume. [Pipeline engine](https://github.com/fireflyframework/fireflyframework-agentic/blob/main/fireflyframework_agentic/pipeline/engine.py) · [Memory implementation](https://github.com/fireflyframework/fireflyframework-agentic/tree/main/fireflyframework_agentic/memory).
+
+**AI-assisted software delivery.** I’m building [Firefly Forge](https://github.com/fireflyframework/firefly-forge) around retained source, executable verification, and explicit publication decisions. A difficult part is deciding whether evidence is still valid when code, policy, or access changes. [Architecture](https://github.com/fireflyframework/firefly-forge/blob/main/docs/architecture.md) · [Evidence and authority tests](https://github.com/fireflyframework/firefly-forge/blob/main/tests/test_learning_cached_authority.py).
+
+**Financial behavior under failure.** I use the Lumen wallet and ledger applications to exercise the frameworks against concrete financial rules. Tests cover a failed credit step restoring balances, and an outbox event committing or rolling back with its transfer. [Python saga tests](https://github.com/fireflyframework/fireflyframework-pyfly/blob/main/samples/lumen/tests/test_money_transfer_saga.py) · [PHP transaction and outbox tests](https://github.com/fireflyframework/fireflyframework-php/blob/main/samples/lumen/tests/Outbox/OutboxSameTransactionTest.php).
+
+I also build [FlyCanon](https://github.com/fireflyframework/flycanon), for knowledge with source provenance and cited answers, and [FlyQuery](https://github.com/fireflyframework/flyquery), for structured-file analytics with inspectable SQL. [Firefly Agent Bridge](https://github.com/fireflyframework/firefly-agent-bridge) connects applications to coding CLIs through scoped jobs and resumable workflows.
 
 ## Application architecture across five languages
 
@@ -27,16 +41,6 @@ The Firefly Framework family shares an approach to application structure while f
 
 Capabilities and release maturity vary by implementation. Each repository documents its supported behavior.
 
-## AI applications, delivery, and business processes
-
-I built **[Firefly Agentic](https://github.com/fireflyframework/fireflyframework-agentic)** on Pydantic AI to give applications a foundation for agents, with tools, memory, retrieval, and validation. [Explore the implementation](https://github.com/fireflyframework/fireflyframework-agentic/tree/main/fireflyframework_agentic).
-
-I’m building **[Firefly Forge](https://github.com/fireflyframework/firefly-forge)** as a software factory for pyfly and larafly, bringing product definition and coding-agent tasks together with verification and delivery. [Firefly Agent Bridge](https://github.com/fireflyframework/firefly-agent-bridge) connects applications to coding CLIs through scoped jobs and resumable workflows.
-
-With **[Firefly Weave](https://github.com/fireflyframework/firefly-weave)**, I work on processes that cross services and involve people, including persisted execution history, waits, and human tasks. [Source](https://github.com/fireflyframework/firefly-weave/tree/main/src/firefly_weave) · [Examples](https://github.com/fireflyframework/firefly-weave/tree/main/examples).
-
-I also build applications on these foundations: **[FlyCanon](https://github.com/fireflyframework/flycanon)** for knowledge with source provenance and cited answers, and **[FlyQuery](https://github.com/fireflyframework/flyquery)** for structured-file analytics with inspectable SQL.
-
 ## Banking technology in the open
 
 Through Firefly Software, I work on **OpenPlatform** business modules and their integration with existing financial systems. Public repositories cover customer management, accounts, payments, lending, and shared services.
@@ -49,15 +53,9 @@ A few places to inspect the engineering:
 
 [Explore Firefly OpenPlatform](https://github.com/firefly-oss) · [My account-service contributions](https://github.com/firefly-oss/core-banking-accounts/commits/main/?author=ancongui)
 
-## A closer look at the implementation
+## How I make the work usable
 
-These parts of the code show how I approach problems that come up across applications:
-
-- **Composition and contracts:** pyfly's [container](https://github.com/fireflyframework/fireflyframework-pyfly/tree/main/src/pyfly/container) and [domain primitives](https://github.com/fireflyframework/fireflyframework-pyfly/tree/main/src/pyfly/domain).
-- **Transactions and messaging:** larafly's [orchestration](https://github.com/fireflyframework/fireflyframework-php/tree/main/packages/orchestration) and [database event adapter](https://github.com/fireflyframework/fireflyframework-php/tree/main/packages/eda-database).
-- **Executable learning material:** the [pyfly book and companion service](https://github.com/fireflyframework/fireflyframework-pyfly/tree/main/book) and [larafly's documentation checks](https://github.com/fireflyframework/fireflyframework-php/blob/main/tests/DocsCodeIsRealTest.php).
-
-The [book collection](https://fireflyframework.org/#books) covers jafly, pyfly, larafly, and rsfly in English and Spanish. I treat examples and documentation as part of the engineering: readers should be able to follow an idea into working code.
+The [book collection](https://fireflyframework.org/#books) covers jafly, pyfly, larafly, and rsfly in English and Spanish. I work on the examples and documentation alongside the implementation. Readers can follow the ideas into companion services and the tests that exercise them, including [larafly's documentation checks](https://github.com/fireflyframework/fireflyframework-php/blob/main/tests/DocsCodeIsRealTest.php).
 
 I've worked in software since 2009 and AI and Big Data since 2012. Alongside Firefly, I'm Chief Technology Officer at [Signature Management Consultants](https://www.signature.com.es/).
 
