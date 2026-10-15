@@ -2,10 +2,14 @@
   <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/main/assets/hero-narrow-dark.svg">
   <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/main/assets/hero-narrow-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/main/assets/hero-dark.svg">
-  <img src="https://raw.githubusercontent.com/ancongui/ancongui/main/assets/hero-light.svg" alt="Andrés Contreras Guillén. Founder and Technology Lead of Firefly Software and the Firefly Software Foundation. I build the foundations for AI and financial software." width="100%">
+  <img src="https://raw.githubusercontent.com/ancongui/ancongui/main/assets/hero-light.svg" alt="Andrés Contreras Guillén. Founder and Technology Lead of Firefly Software and the Firefly Software Foundation. CTO at Signature, working on Lean Transformation. I build the foundations for AI and financial software." width="100%">
 </picture>
 
 ## I design the architecture and write the software
+
+I started programming at eight with Batch, Bash, Perl, and PHP. I was a regular on security forums and at events in Spain, and a member of ka0labs. Understanding how systems worked and where they failed taught me a lot, but building software became the work I wanted to pursue.
+
+In 2009, at fourteen, I began working on professional projects and with startups. As the projects grew, I moved into enterprise development and software architecture. I've worked in AI and Big Data since 2012. That path led to the frameworks and financial software I build today.
 
 I'm the founder and technology lead of **Firefly Software** and the **Firefly Software Foundation**. My public engineering work lives across [fireflyframework](https://github.com/fireflyframework) and [firefly-oss](https://github.com/firefly-oss): application frameworks, tools for AI and software delivery, and the business modules behind banking operations.
 
@@ -57,15 +61,18 @@ A few places to inspect the engineering:
 
 The [book collection](https://fireflyframework.org/#books) covers jafly, pyfly, larafly, and rsfly in English and Spanish. I work on the examples and documentation alongside the implementation. Readers can follow the ideas into companion services and the tests that exercise them, including [larafly's documentation checks](https://github.com/fireflyframework/fireflyframework-php/blob/main/tests/DocsCodeIsRealTest.php).
 
-I've worked in software since 2009 and AI and Big Data since 2012.
-
 ## Strategy, transformation, and delivery
 
-<a href="https://www.signature.com.es/"><img src="https://raw.githubusercontent.com/ancongui/ancongui/main/assets/signature-logo.svg" alt="Signature Management Consultants" width="48" height="48"></a>
+<a href="https://www.signature.com.es/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ancongui/ancongui/main/assets/signature-wordmark-dark.svg">
+    <img src="https://raw.githubusercontent.com/ancongui/ancongui/main/assets/signature-wordmark-light.svg" alt="Signature Management Consultants" width="200">
+  </picture>
+</a>
 
 Alongside Firefly, I'm **Chief Technology Officer at [Signature Management Consultants](https://www.signature.com.es/)**, where I lead the firm's technology capability and Forward Deployment practice.
 
-I work with business leaders and engineering teams to turn strategic priorities into changes the organization can put into practice. That includes diagnosing what limits performance, redesigning processes, and deciding how AI, data, and existing systems can support the transformation.
+My work in Lean Transformation brings business leaders and engineering teams together to turn strategic priorities into changes the organization can put into practice. That includes diagnosing what limits performance, redesigning processes, and deciding how AI, data, and existing systems can support the transformation.
 
 I stay involved through architecture and implementation, helping teams bring the system into production and take ownership of it. The work connects business judgment with hands-on engineering: the operating model and the code have to work together. [Transformation practice](https://www.signature.com.es/capacidades/transformacion) · [Technology capabilities](https://www.signature.com.es/capacidades/digital).
 
